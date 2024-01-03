@@ -8,10 +8,20 @@
 </head>
 <body>
     <div class="container">
+        <!--<button id="new-game-btn">New Game</button>
+        <button id="continue-btn">Continue</button>-->
         <div id="question-container">
             <!-- Question will be displayed here -->
         </div>
-        <button id="new-question-btn">New Question</button>
+        <button id="new-question-btn">New Question</button><br>
+        <a href="#" id="history-btn">Show History</a>
+    </div>
+    <div id="history-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <span id="reset-btn" class="reset-btn">&#8634;</span>
+            <div id="history-content"></div>
+        </div>
     </div>
     <script src="script.js"></script>
 </body>
